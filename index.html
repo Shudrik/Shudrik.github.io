@@ -1,104 +1,124 @@
 <!DOCTYPE HTML">
 <html>
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Урок 2</title>
- </head>
- <body>
-  <h1>Введение в HTML</h1>
-  <!-- просто текстовка -->
-  <p>Первый абзац.</p>
-  <p>Второй абзац.</p>
-  <p>&#9998;</p>
-<p>&copy;</p>
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/kpNbUN2_ebo"
-frameborder="0" allowfullscreen></iframe>
-<form action="1.php" method ="post">
-    <input type = "text" required>
-    <input type = "email">
-    <input type = "password">
-    <input type = "checkbox">
-    <input type = "radio">
-    <input type = "submit" value="button">
-    <input type = "color" name="id">
-    <input type = "date" name="id">
-    <input type = "datetime" name="id">
-    <input type = "file" name="id">
-    <input type = "range" name="id">
-    <select name="cars">
-        <option value="volvo">Volvo</option>
-        <option value="audi" selected>Audi</option>
-        <option value="fiat">Fiat</option>
-        <option value="citroen">Citroen</option>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Урок 2</title>
+</head>
+
+<body>
+    <h1>Введение в HTML</h1>
+    <!-- просто текстовка -->
+    <p>Первый абзац.</p>
+    <p>Второй абзац.</p>
+    <p>&#9998;</p>
+    <p>&copy;</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kpNbUN2_ebo" frameborder="0"
+        allowfullscreen></iframe>
+    <form action="1.php" method="post">
+        <input type="text" required>
+        <input type="email">
+        <input type="password">
+        <input type="checkbox">
+        <input type="radio">
+        <input type="submit" value="button">
+        <input type="color" name="id">
+        <input type="date" name="id">
+        <input type="datetime" name="id">
+        <input type="file" name="id">
+        <input type="range" name="id">
+        <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="audi" selected>Audi</option>
+            <option value="fiat">Fiat</option>
+            <option value="citroen">Citroen</option>
         </select>
         <textarea rows="10" cols="45">
             Lorem ipsum.
         </textarea>
-    <p>Варианты выбора</p>
-    <p>1</p>
-    <input type = "radio" name="nameButton">
-    <p>2</p>
-    <input type = "radio" name="nameButton">
-    <p>3</p>
-    <input type = "radio" name="nameButton">
-    <table>
-        <colgroup>
-          <col span="2" style="background:Khaki"><!-- С помощью этой конструкции задаем цвет фона для первых двух столбцов таблицы-->
-          <col style="background-color:LightCyan"><!-- Задаем цвет фона для следующего (одного) столбца таблицы-->
-        </colgroup>
-        <tr>
-          <th>№ п/п</th>
-          <th>Наименование</th>
-          <th>Цена,грн.</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Карандаш цветной</td>
-          <td>20,00</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Линейка 20 см</td>
-          <td>30,00</td>
-        </tr>
-      </table>
-</form>
-<form>
-    <div>
-        <p>Выбор</p>
-    <div><input type = "checkbox"> <label>Да</label></div>
-    <div><input type = "checkbox"> <label>нет</label></div>
-    </div>
-    <div>
-        <p>Вопрос</p>
+        <p>Варианты выбора</p>
+        <p>1</p>
+        <input type="radio" name="nameButton">
+        <p>2</p>
+        <input type="radio" name="nameButton">
+        <p>3</p>
+        <input type="radio" name="nameButton">
+        <table>
+            <colgroup>
+                <col span="2" style="background:Khaki">
+                <!-- С помощью этой конструкции задаем цвет фона для первых двух столбцов таблицы-->
+                <col style="background-color:LightCyan"><!-- Задаем цвет фона для следующего (одного) столбца таблицы-->
+            </colgroup>
+            <tr>
+                <th>№ п/п</th>
+                <th>Наименование</th>
+                <th>Цена,грн.</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Карандаш цветной</td>
+                <td>20,00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Линейка 20 см</td>
+                <td>30,00</td>
+            </tr>
+        </table>
+    </form>
+    <form>
         <div>
-        <input type = "radio" name="nameButton2"><label>1</label></div>
-        <input type = "radio" name="nameButton2"><label>2</label></div>
-        <input type = "radio" name="nameButton2"><label>3</label></div>
+            <p>Выбор</p>
+            <div><input type="checkbox"> <label>Да</label></div>
+            <div><input type="checkbox"> <label>нет</label></div>
+        </div>
+        <div>
+            <p>Вопрос</p>
+            <div>
+                <input type="radio" name="nameButton2"><label>1</label></div>
+            <input type="radio" name="nameButton2"><label>2</label>
+        </div>
+        <input type="radio" name="nameButton2"><label>3</label></div>
+        </div>
+    </form>
+    <div>
+        <p>Lorem ipsum <span>dolor <i>sit</i> amet</span>, consectetur adipiscing elit. Nam blandit ornare lorem ut
+            euismod. Phasellus rutrum nibh quis erat pulvinar semper. Sed non neque quam. Nullam a accumsan libero.
+            Proin ut metus eu quam mattis facilisis. Sed condimentum dolor et velit lobortis, ac finibus ante accumsan.
+            Integer finibus purus id felis dictum, a mattis risus pretium. Sed congue magna sed cursus feugiat. Aliquam
+            euismod lectus massa, et placerat justo imperdiet sed. Praesent pharetra arcu dui. Phasellus auctor, augue
+            id sagittis fermentum, nibh elit ultricies justo, et maximus tellus turpis eu orci. Etiam tristique congue
+            porta. Proin at ligula quis felis malesuada posuere a eget est. Sed hendrerit erat lectus, quis volutpat ex
+            varius sed. Morbi sed scelerisque sapien, fringilla molestie lectus.</p>
     </div>
-</form>
-<div><p>Lorem ipsum <span >dolor <i>sit</i> amet</span>, consectetur adipiscing elit. Nam blandit ornare lorem ut euismod. Phasellus rutrum nibh quis erat pulvinar semper. Sed non neque quam. Nullam a accumsan libero. Proin ut metus eu quam mattis facilisis. Sed condimentum dolor et velit lobortis, ac finibus ante accumsan. Integer finibus purus id felis dictum, a mattis risus pretium. Sed congue magna sed cursus feugiat. Aliquam euismod lectus massa, et placerat justo imperdiet sed. Praesent pharetra arcu dui. Phasellus auctor, augue id sagittis fermentum, nibh elit ultricies justo, et maximus tellus turpis eu orci. Etiam tristique congue porta. Proin at ligula quis felis malesuada posuere a eget est. Sed hendrerit erat lectus, quis volutpat ex varius sed. Morbi sed scelerisque sapien, fringilla molestie lectus.</p></div>
-<h1>Статья</h1>
-<p>Sed <i>dictum sed sit nunc</i> <strong>sit vel euismod. </strong>Curabitur nec accumsan enim. Etiam vestibulum finibus urna, sit amet viverra ex pharetra in. Ut faucibus tortor sapien, id faucibus ex mollis eget. Sed cursus eros ut diam viverra cursus. Duis nulla nunc, blandit eget libero non, fringilla gravida sapien. Sed eget sollicitudin lorem. Cras semper nisi at imperdiet interdum. Mauris laoreet rhoncus ligula, a pulvinar sem faucibus id.</p>
-<h2>Форма</h2>
+    <h1>Статья</h1>
+    <p>Sed <i>dictum sed sit nunc</i> <strong>sit vel euismod. </strong>Curabitur nec accumsan enim. Etiam vestibulum
+        finibus urna, sit amet viverra ex pharetra in. Ut faucibus tortor sapien, id faucibus ex mollis eget. Sed cursus
+        eros ut diam viverra cursus. Duis nulla nunc, blandit eget libero non, fringilla gravida sapien. Sed eget
+        sollicitudin lorem. Cras semper nisi at imperdiet interdum. Mauris laoreet rhoncus ligula, a pulvinar sem
+        faucibus id.</p>
+    <h2>Форма</h2>
 
-<div><span>
-    <input type = "email">
-    <input type = "password">
-    <select name="cars">
-    <option value="volvo">Volvo</option>
-    <option value="audi" selected>Audi</option>
-    <option value="fiat">Fiat</option>
-    <option value="citroen">Citroen</option>
-    </select></span>
-    <div>
-    <div>
-        <textarea rows="10" cols="45">
+    <div><span>
+            <input type="email">
+            <input type="password">
+            <select name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="audi" selected>Audi</option>
+                <option value="fiat">Fiat</option>
+                <option value="citroen">Citroen</option>
+            </select></span>
+        <div>
+            <div>
+                <textarea rows="10" cols="45">
             Lorem ipsum.
         </textarea>
-    </div>
+            </div>
+            <svg width="300" height="300">
+                <rect x="50" y="50" rx="50" ry="20" width="200" height="200"
+                    style="fill:green;stroke:rgb(0, 0, 0);stroke-width:5;opacity:0.6" />
+                Your browser does not support inline SVG.
+            </svg>
 </body>
+
 </html>
-
-
